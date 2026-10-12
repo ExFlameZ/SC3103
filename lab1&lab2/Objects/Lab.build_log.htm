@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.43.1.0
+Copyright (C) 2025 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Kah Seng Lai, Nanyang Technological University, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.43.0.0
+Toolchain Path:  C:\Users\User\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.43.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      UL2CM3.DLL V1.164.16.0
+Dialog DLL:      TCM.DLL V1.56.6.0
+ 
+<h2>Project:</h2>
+C:\Users\User\OneDrive\NTU\SC3103\Lab.uvprojx
+Project File Date:  09/08/2026
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Users\User\AppData\Local\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
+Build target 'HelloWorld'
+compiling main.c...
+.\LibraryFiles\CORE\arm_math.h(293): warning:  #2803-D: unrecognized GCC pragma
+  #pragma GCC diagnostic push
+.\LibraryFiles\CORE\arm_math.h(294): warning:  #2803-D: unrecognized GCC pragma
+  #pragma GCC diagnostic ignored "-Wsign-conversion"
+.\LibraryFiles\CORE\arm_math.h(295): warning:  #2803-D: unrecognized GCC pragma
+  #pragma GCC diagnostic ignored "-Wconversion"
+.\LibraryFiles\CORE\arm_math.h(296): warning:  #2803-D: unrecognized GCC pragma
+  #pragma GCC diagnostic ignored "-Wunused-parameter"
+.\LibraryFiles\CORE\arm_math.h(7146): warning:  #2803-D: unrecognized GCC pragma
+  #pragma GCC diagnostic pop
+.\LibraryFiles\Hardware\buzzer.h(18): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SC3103\button.h(13): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\SC3103\uart.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+LibraryFiles\Main\main.c(13): warning:  #47-D: incompatible redefinition of macro "SHOW_TASK_PRIO"  (declared at line 6 of ".\LibraryFiles\Hardware\show.h")
+  #define SHOW_TASK_PRIO    1
+LibraryFiles\Main\main.c(19): warning:  #47-D: incompatible redefinition of macro "SHOW_STK_SIZE"  (declared at line 7 of ".\LibraryFiles\Hardware\show.h")
+  #define SHOW_STK_SIZE     128
+LibraryFiles\Main\main.c(99): warning:  #1-D: last line of file ends without a newline
+  }
+LibraryFiles\Main\main.c: 11 warnings, 0 errors
+linking...
+Program Size: Code=10866 RO-data=3102 RW-data=348 ZI-data=23980  
+FromELF: creating hex file...
+".\Objects\Lab.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F4xx_DFP.3.1.1.pack
+                Keil::STM32F4xx_DFP@3.1.1
+                STMicroelectronics STM32F4 Series Device Support
+
+<h2>Collection of Component include folders:</h2>
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
